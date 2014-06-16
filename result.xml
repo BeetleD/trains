@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<results>
+<commonBaggageWeight>82712.47698526851</commonBaggageWeight>
+<commonPassengersCount>722</commonPassengersCount>
+<sortedTrain>
+<passengerCar>
+<comfort>96.86887024865779%</comfort>
+<weight>81.80830385680515 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>7</passengersCount>
+<baggageWeight>9667.667323734284 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>92.4824436998469%</comfort>
+<weight>497.09244872383806 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>69</passengersCount>
+<baggageWeight>2954.5722188736167 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>85.68645996684181%</comfort>
+<weight>53.64952965234432 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>21</passengersCount>
+<baggageWeight>2708.623057164774 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>85.67174744825691%</comfort>
+<weight>117.54309161714616 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>8</passengersCount>
+<baggageWeight>943.4144750059626 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>83.73038951680502%</comfort>
+<weight>258.7865883595152 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>62</passengersCount>
+<baggageWeight>3603.8781507663653 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>76.62759800738836%</comfort>
+<weight>225.85977255520478 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>11</passengersCount>
+<baggageWeight>9171.015742653708 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>76.16628354488489%</comfort>
+<weight>229.2760692987273 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>20</passengersCount>
+<baggageWeight>4376.991838647807 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>75.15880301393062%</comfort>
+<weight>149.29994062588804 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>14</passengersCount>
+<baggageWeight>1722.6914090604673 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>73.28255810831007%</comfort>
+<weight>396.6639876690505 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>55</passengersCount>
+<baggageWeight>8863.848642256338 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>70.0142282156151%</comfort>
+<weight>65.96242149089892 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>11</passengersCount>
+<baggageWeight>143.09140489085715 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>68.32795632683413%</comfort>
+<weight>238.73739137179246 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>15</passengersCount>
+<baggageWeight>3288.849741825044 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>63.52194661266353%</comfort>
+<weight>476.4273183417221 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>27</passengersCount>
+<baggageWeight>2728.9582974021787 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>58.69805164743214%</comfort>
+<weight>205.5099517914125 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>31</passengersCount>
+<baggageWeight>150.51893323007826 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>53.612041608112506%</comfort>
+<weight>137.17726460694817 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>83</passengersCount>
+<baggageWeight>658.9220637489279 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>46.2293278658081%</comfort>
+<weight>147.71071648060595 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>0</passengersCount>
+<baggageWeight>8714.985468888488 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>45.218140833322686%</comfort>
+<weight>474.7213401857291 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>84</passengersCount>
+<baggageWeight>8840.060336989865 kg</baggageWeight>
+</passengerCar>
+<locomotive>
+<comfort>40.0%</comfort>
+<weight>135.0 tons</weight>
+<height>4.6 m</height>
+<hp>4250</hp>
+<model>P42DC</model>
+<engine>GE 7FDL-16</engine>
+</locomotive>
+<locomotive>
+<comfort>40.0%</comfort>
+<weight>135.0 tons</weight>
+<height>4.6 m</height>
+<hp>4250</hp>
+<model>P42DC</model>
+<engine>GE 7FDL-16</engine>
+</locomotive>
+<locomotive>
+<comfort>40.0%</comfort>
+<weight>135.0 tons</weight>
+<height>4.6 m</height>
+<hp>4250</hp>
+<model>P42DC</model>
+<engine>GE 7FDL-16</engine>
+</locomotive>
+<locomotive>
+<comfort>40.0%</comfort>
+<weight>135.0 tons</weight>
+<height>4.6 m</height>
+<hp>4250</hp>
+<model>P42DC</model>
+<engine>GE 7FDL-16</engine>
+</locomotive>
+<locomotive>
+<comfort>40.0%</comfort>
+<weight>135.0 tons</weight>
+<height>4.6 m</height>
+<hp>4250</hp>
+<model>P42DC</model>
+<engine>GE 7FDL-16</engine>
+</locomotive>
+<passengerCar>
+<comfort>35.89464040790933%</comfort>
+<weight>274.65161008487206 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>64</passengersCount>
+<baggageWeight>3988.168121891866 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>25.774190610434665%</comfort>
+<weight>95.37655781758114 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>83</passengersCount>
+<baggageWeight>3354.5218590140867 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>4.105474396958608%</comfort>
+<weight>482.76120184567316 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>8</passengersCount>
+<baggageWeight>4534.907939271407 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>1.9955491168661799%</comfort>
+<weight>391.2799486470499 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>49</passengersCount>
+<baggageWeight>2296.78995995238 kg</baggageWeight>
+</passengerCar>
+</sortedTrain>
+<specifiedRange>
+<passengerCar>
+<comfort>92.4824436998469%</comfort>
+<weight>497.09244872383806 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>69</passengersCount>
+<baggageWeight>2954.5722188736167 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>83.73038951680502%</comfort>
+<weight>258.7865883595152 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>62</passengersCount>
+<baggageWeight>3603.8781507663653 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>73.28255810831007%</comfort>
+<weight>396.6639876690505 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>55</passengersCount>
+<baggageWeight>8863.848642256338 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>35.89464040790933%</comfort>
+<weight>274.65161008487206 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>64</passengersCount>
+<baggageWeight>3988.168121891866 kg</baggageWeight>
+</passengerCar>
+<passengerCar>
+<comfort>1.9955491168661799%</comfort>
+<weight>391.2799486470499 tons</weight>
+<height>5.04957982057546 m</height>
+<passengersCount>49</passengersCount>
+<baggageWeight>2296.78995995238 kg</baggageWeight>
+</passengerCar>
+</specifiedRange>
+</results>
