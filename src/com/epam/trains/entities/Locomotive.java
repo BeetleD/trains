@@ -10,7 +10,7 @@ public class Locomotive extends RailwayVehicle {
 	private String model;
     private String engine;
 
-    public Locomotive(){
+	public Locomotive(){
 	}
 	@Override
 	public String toString(){

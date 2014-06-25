@@ -47,11 +47,11 @@ public class PassengerCar extends RailwayVehicle {
 
 	public void setPassengersCount(int passengersCount) throws OutOfRangeException {
 
-        if ((passengersCount < 0)|| (passengersCount > MAX_PASSENGER_SCOUNT)){
-            logger.error("wrong passengers count argument: " + passengersCount );
-            throw new OutOfRangeException();
-        }
-        this.passengersCount = passengersCount;
+		if ((passengersCount < 0)|| (passengersCount > MAX_PASSENGER_SCOUNT)){
+			logger.error("wrong passengers count argument: " + passengersCount );
+			throw new OutOfRangeException();
+		}
+		this.passengersCount = passengersCount;
 	}
 
 	public double getBaggageWeight() {
@@ -60,10 +60,10 @@ public class PassengerCar extends RailwayVehicle {
 
 	public void setBaggageWeight(double baggageWeight) throws OutOfRangeException {
 
-        if (( baggageWeight < 0 )||( baggageWeight > MAX_BAGGAGE_WEIGHT)){
-            logger.error( "incorrect baggage weight argument: " + baggageWeight );
-            throw new OutOfRangeException();
-        }
-        this.baggageWeight = baggageWeight;
-    }
+		if (( baggageWeight < 0 )||( baggageWeight > MAX_BAGGAGE_WEIGHT)){
+			logger.error( "incorrect baggage weight argument: " + baggageWeight );
+			throw new OutOfRangeException();
+		}
+		this.baggageWeight = baggageWeight;
+	}
 }

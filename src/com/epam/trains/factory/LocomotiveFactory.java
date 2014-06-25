@@ -7,8 +7,8 @@ import com.epam.trains.exception.OutOfRangeException;
 public class LocomotiveFactory implements RailwayVehicleFactory {
 
 	@Override
-	public RailwayVehicle getRailwayVehicle() throws OutOfRangeException {
-		return new Locomotive();
+    public Locomotive getRailwayVehicle() throws OutOfRangeException {
+	    return new Locomotive();
 	}
 
 }

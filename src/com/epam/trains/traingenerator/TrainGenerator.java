@@ -21,11 +21,11 @@ public class TrainGenerator {
 		return passengerCarsCnt;
 	}
 	public void setPassengerCarsCnt(int passengerCarsCnt) throws OutOfRangeException {
-        if (( passengerCarsCnt < 0 )&&( passengerCarsCnt > MAX_PASSENGERCARS_CNT )) {
-            logger.error("incorrect passengerCarsCnt argument: " + passengerCarsCnt);
-            throw new OutOfRangeException();
-        }
-        this.passengerCarsCnt = passengerCarsCnt;
+		if (( passengerCarsCnt < 0 )&&( passengerCarsCnt > MAX_PASSENGERCARS_CNT )) {
+			logger.error("incorrect passengerCarsCnt argument: " + passengerCarsCnt);
+			throw new OutOfRangeException();
+		}
+		this.passengerCarsCnt = passengerCarsCnt;
 	}
 	public TrainGenerator( int passengerCarsCnt ) throws OutOfRangeException {
 		setPassengerCarsCnt( passengerCarsCnt );
@@ -34,10 +34,10 @@ public class TrainGenerator {
 		PassengerTrain res = new PassengerTrain();
 		res.clear();
 		Random rand = new Random();
-        res.add(new Locomotive.Creator().setHorsePowers(4400).setModel("ES44C4").setEngine("GEVO-12")
-                                        .setTonsWeight(126).setHeight(4.588).setComfortPercent(20).create());
-        res.add(new Locomotive.Creator().setHorsePowers(4250).setModel("P42DC").setEngine("GE 7FDL-16")
-                                        .setTonsWeight(135).setHeight(4.600).setComfortPercent(40).create());
+		res.add(new Locomotive.Creator().setHorsePowers(4400).setModel("ES44C4").setEngine("GEVO-12")
+										.setTonsWeight(126).setHeight(4.588).setComfortPercent(20).create());
+		res.add(new Locomotive.Creator().setHorsePowers(4250).setModel("P42DC").setEngine("GE 7FDL-16")
+										.setTonsWeight(135).setHeight(4.600).setComfortPercent(40).create());
 
 		RailwayVehicleFactory vehicleFactory = new PassengerCarFactory();
 		double height = (rand.nextDouble()/2+0.5)*RailwayVehicle.MAX_HEIGHT;

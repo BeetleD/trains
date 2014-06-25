@@ -39,7 +39,7 @@ public abstract class RailwayVehicle implements Comparable<RailwayVehicle> {
 	}
 	@Override
 	public int hashCode(){
-        int prime = 37;
+		int prime = 37;
 		int res = (((int)comfortPercent*prime+(int)height)*prime + (int)tonsWeight);
 		return res;
 	}
@@ -68,20 +68,20 @@ public abstract class RailwayVehicle implements Comparable<RailwayVehicle> {
 	}
 	public void setHeight(double height) throws OutOfRangeException {
 
-        if (( height < 0 )||( height > MAX_HEIGHT )){
-            logger.error( "incorrect height argument "+height );
-            throw new OutOfRangeException();
-        }
-        this.height = height;
+		if (( height < 0 )||( height > MAX_HEIGHT )){
+			logger.error( "incorrect height argument "+height );
+			throw new OutOfRangeException();
+		}
+		this.height = height;
 	}
 	public double getComfortPercent() {
 		return comfortPercent;
 	}
 	public void setComfortPercent(double comfortPercent) throws OutOfRangeException {
-        if (( comfortPercent < 0)||( comfortPercent > MAX_COMFORT_PERCENT )){
-            logger.error( "incorrect comfortability percent argument "+comfortPercent+"%" );
-            throw new OutOfRangeException();
-        }
-        this.comfortPercent = comfortPercent;
+		if (( comfortPercent < 0)||( comfortPercent > MAX_COMFORT_PERCENT )){
+			logger.error( "incorrect comfortability percent argument "+comfortPercent+"%" );
+			throw new OutOfRangeException();
+		}
+		this.comfortPercent = comfortPercent;
 	}
 }

@@ -6,6 +6,7 @@ import java.util.Collections;
 import com.epam.trains.comparator.ComfortComparator;
 import com.epam.trains.entities.PassengerCar;
 import com.epam.trains.exception.OutOfRangeException;
+import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
@@ -21,19 +22,19 @@ public class Main {
 	}
 	public static void main(String[] args) {
 		
-	    logger.info("Trains application started");
-        TrainGenerator tGenerator = null;
-        try {
-            tGenerator = new TrainGenerator( 20 );
-            PassengerTrain pTrain = tGenerator.buildPassengerTrain();
-            double commonBaggageWeight = TrainOperations.commonBaggageWeight( pTrain );
-            int commonPassengersCnt = TrainOperations.commonPassengersCount(pTrain);
-            pTrain.sort(Collections.reverseOrder(new ComfortComparator()) );
-            ArrayList<PassengerCar> pCars = TrainOperations.findPassengerCars( pTrain, 40, 80 );
+		logger.info("Trains application started");
+		TrainGenerator tGenerator = null;
+	    try {
+		    tGenerator = new TrainGenerator( 20 );
+			PassengerTrain pTrain = tGenerator.buildPassengerTrain();
+			double commonBaggageWeight = TrainOperations.commonBaggageWeight( pTrain );
+			int commonPassengersCnt = TrainOperations.commonPassengersCount(pTrain);
+			pTrain.sort(Collections.reverseOrder(new ComfortComparator()) );
+			ArrayList<PassengerCar> pCars = TrainOperations.findPassengerCars( pTrain, 40, 80 );
 
-        } catch (OutOfRangeException e) {
-            logger.error( "OutOfRange exception in Main");
-        }
+		} catch (OutOfRangeException e) {
+			logger.error( "OutOfRange exception in Main");
+		}
 
 	}
 }

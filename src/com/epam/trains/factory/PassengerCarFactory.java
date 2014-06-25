@@ -6,7 +6,7 @@ import com.epam.trains.entities.RailwayVehicle;
 public class PassengerCarFactory implements RailwayVehicleFactory {
 
 	@Override
-	public PassengerCar getRailwayVehicle() {
+    public PassengerCar getRailwayVehicle() {
 		return new PassengerCar();
 	}
 
