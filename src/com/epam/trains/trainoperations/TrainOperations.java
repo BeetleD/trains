@@ -1,12 +1,10 @@
-package trainoperations;
+package com.epam.trains.trainoperations;
 
 import com.epam.trains.entities.PassengerCar;
 import com.epam.trains.entities.PassengerTrain;
 import com.epam.trains.entities.RailwayVehicle;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 
 /**
  * Created by Dmitry on 25.06.2014.

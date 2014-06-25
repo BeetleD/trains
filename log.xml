@@ -30,3 +30,7 @@
 <log4j:message><![CDATA[Trains application started]]></log4j:message>
 </log4j:event>
 
+<log4j:event logger="com.epam.trains.Main" timestamp="1403690876450" level="INFO" thread="main">
+<log4j:message><![CDATA[Trains application started]]></log4j:message>
+</log4j:event>
+

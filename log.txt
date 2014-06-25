@@ -6,3 +6,4 @@
 [main] INFO  com.epam.trains.Main  - Trains application started
 [main] INFO  com.epam.trains.Main  - Trains application started
 [main] INFO  com.epam.trains.Main  - Trains application started
+[main] INFO  com.epam.trains.Main  - Trains application started

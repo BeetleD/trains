@@ -1,6 +1,5 @@
 package com.epam.trains;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -12,7 +11,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 
 import com.epam.trains.entities.PassengerTrain;
 import com.epam.trains.traingenerator.TrainGenerator;
-import trainoperations.TrainOperations;
+import com.epam.trains.trainoperations.TrainOperations;
 
 public class Main {
 	
