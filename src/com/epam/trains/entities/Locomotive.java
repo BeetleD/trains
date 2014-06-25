@@ -8,9 +8,10 @@ public class Locomotive extends RailwayVehicle {
 	public static final int MIN_HORSE_POWERS = 1;
 	private int horsePowers;
 	private String model;
-	private String engine;
+    private String engine;
+
     public Locomotive(){
-    }
+	}
 	@Override
 	public String toString(){
 		return super.toString() + Integer.toString( horsePowers )+"horse powers, "+ model+", " + engine +" ]";
@@ -22,7 +23,7 @@ public class Locomotive extends RailwayVehicle {
 		if (obj == null){
 			return false;
 		}
-		if (obj instanceof Locomotive ){ 
+		if (obj instanceof Locomotive ){
 			Locomotive temp = (Locomotive) obj;
 			return 	( this.engine.equals(temp.getEngine()))&&
 					( this.model.equals(temp.getModel() ))&&
@@ -35,7 +36,7 @@ public class Locomotive extends RailwayVehicle {
 		}
 	}
 	public int hashCode(){
-        int prime = 37;
+		int prime = 37;
 		return super.hashCode()*prime + horsePowers;
 	}
 	public int getHorsePowers() {
@@ -44,7 +45,7 @@ public class Locomotive extends RailwayVehicle {
 	public void setHorsePowers(int hp) throws OutOfRangeException {
 
 			if ( hp < MIN_HORSE_POWERS ){
-                logger.error( "incorrect hp argument: " + hp);
+				logger.error( "incorrect hp argument: " + hp);
 				throw new OutOfRangeException();
 			}
 			this.horsePowers = hp;
@@ -63,79 +64,79 @@ public class Locomotive extends RailwayVehicle {
 		this.engine = engine;
 	}
 
-    public static class Creator {
+	public static class Creator {
 
-        private int horsePowers;
-        private String engine;
-        private String model;
-        private double comfortPercent;
-        private double height;
-        private double tonsWeight;
+		private int horsePowers;
+		private String engine;
+		private String model;
+		private double comfortPercent;
+		private double height;
+		private double tonsWeight;
 
-        public int getHorsePowers() {
-            return horsePowers;
-        }
+		public int getHorsePowers() {
+			return horsePowers;
+		}
 
-        public Creator setHorsePowers(int horsePowers) {
-            this.horsePowers = horsePowers;
-            return this;
-        }
+		public Creator setHorsePowers(int horsePowers) {
+			this.horsePowers = horsePowers;
+			return this;
+		}
 
-        public String getEngine() {
-            return engine;
-        }
+		public String getEngine() {
+			return engine;
+		}
 
-        public Creator setEngine(String engine) {
-            this.engine = engine;
-            return this;
-        }
+		public Creator setEngine(String engine) {
+			this.engine = engine;
+			return this;
+		}
 
-        public String getModel() {
-            return model;
-        }
+		public String getModel() {
+			return model;
+		}
 
-        public Creator setModel(String model) {
-            this.model = model;
-            return this;
-        }
+		public Creator setModel(String model) {
+			this.model = model;
+			return this;
+		}
 
-        public double getComfortPercent() {
-            return comfortPercent;
-        }
+		public double getComfortPercent() {
+			return comfortPercent;
+		}
 
-        public Creator setComfortPercent(double comfortPercent) {
-            this.comfortPercent = comfortPercent;
-            return this;
-        }
+		public Creator setComfortPercent(double comfortPercent) {
+			this.comfortPercent = comfortPercent;
+			return this;
+		}
 
-        public double getHeight() {
-            return height;
-        }
+		public double getHeight() {
+			return height;
+		}
 
-        public Creator setHeight(double height) {
-            this.height = height;
-            return this;
-        }
+		public Creator setHeight(double height) {
+			this.height = height;
+			return this;
+		}
 
-        public double getTonsWeight() {
-            return tonsWeight;
-        }
+		public double getTonsWeight() {
+			return tonsWeight;
+		}
 
-        public Creator setTonsWeight(double tonsWeight) {
-            this.tonsWeight = tonsWeight;
-            return this;
-        }
-        public Locomotive create() throws OutOfRangeException {
-            return new Locomotive( this );
-        }
-    }
+		public Creator setTonsWeight(double tonsWeight) {
+			this.tonsWeight = tonsWeight;
+			return this;
+		}
+		public Locomotive create() throws OutOfRangeException {
+			return new Locomotive( this );
+		}
+	}
 
-    private Locomotive( Creator creator ) throws OutOfRangeException {
-        setHorsePowers( creator.horsePowers );
-        setEngine( creator.engine );
-        setModel( creator.model );
-        setComfortPercent( creator.comfortPercent );
-        setHeight( creator.height );
-        setTonsWeight( creator.tonsWeight );
-    }
+	private Locomotive( Creator creator ) throws OutOfRangeException {
+		setHorsePowers( creator.horsePowers );
+		setEngine( creator.engine );
+		setModel( creator.model );
+		setComfortPercent( creator.comfortPercent );
+		setHeight( creator.height );
+		setTonsWeight( creator.tonsWeight );
+	}
 }

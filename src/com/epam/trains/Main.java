@@ -21,7 +21,7 @@ public class Main {
 	}
 	public static void main(String[] args) {
 		
-		logger.info("Trains application started");
+	    logger.info("Trains application started");
         TrainGenerator tGenerator = null;
         try {
             tGenerator = new TrainGenerator( 20 );
